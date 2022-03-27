@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 
@@ -11,18 +10,74 @@ header{
     height: 70px;
 }
 
-section{
-    height: 60px;
-    background-color: rgb(235, 203, 22);
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 main{
-    margin: 50px;
+    margin: 100px;
+}
+
+/* regole debug */
+.row{
+    border: solid 4px green;
 }
 
 
 
+.firstblock{
+    height: 400px;
+    background-color: rgb(235, 203, 22);
+    width: 100%;
+    float: left;
+}
 
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    background-color: rgb(8, 88, 207);
+    height: 600px;
+    width: 85%;
+    border: solid 4px red;
+    margin-top: 25px;
+}
+
+.topblock{
+    background-color: rgb(16, 169, 240);
+    height: 70px;
+    float: top;
+    width: 100%;
+}
+
+.leftblock{
+    background-color: rgb(16, 169, 240);
+    height: 480px;
+    float: left;
+    width: 15%;
+    margin-top: 20px;
+}
+
+.rightblock{
+    background-color: rgb(16, 169, 240);
+    height: 480px;
+    float: right;
+    width: 15%;
+    margin-top: 20px;
+}
+
+.centerblock{
+    margin: 0 2%;
+    width: 56%;
+    float: left;
+    background-color: red;
+}
+/* regole footer */
 footer{
     height: 150px;
     background-color: blueviolet;
