@@ -4,10 +4,20 @@
     box-sizing: border-box;
 }
 
+/* regole debug header */
+header::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 
 header{
-    background-color: rgb(146, 28, 156);
+    background-color: rgb(210, 92, 221);
     height: 70px;
+    width: 80%;
+    border: solid 4px red;
+    margin-left: 200px;
+    margin-top: 30px;
 }
 
 .row::after{
@@ -93,4 +103,5 @@ footer{
     border: solid 4px red;
     margin-left: 200px;
     background-color: blueviolet;
+    margin-bottom: 30px;
 }
