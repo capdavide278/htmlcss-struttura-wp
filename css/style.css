@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+header{
+    background-color: rgb(146, 28, 156);
+    height: 70px;
+}
+
+section{
+    height: 60px;
+    background-color: rgb(235, 203, 22);
+}
+
+main{
+    margin: 50px;
+}
+
+
+
+
+footer{
+    height: 150px;
+    background-color: blueviolet;
+}
