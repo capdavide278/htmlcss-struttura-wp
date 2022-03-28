@@ -5,17 +5,11 @@
 }
 
 /* regole debug header */
-header::after{
-    content: "";
-    display: table;
-    clear: both;
-}
 
 header{
     background-color: rgb(210, 92, 221);
     height: 70px;
     width: 80%;
-    border: solid 4px red;
     margin-left: 200px;
     margin-top: 30px;
 }
@@ -28,12 +22,11 @@ header{
 
 main{
     margin: 100px;
-
 }
 
 /* regole debug prima riga*/
 .row{
-    border: solid 4px green;
+    /* border: solid 4px green; */
     width: 89%;
     margin-left: 100px;
 }
@@ -60,7 +53,7 @@ main{
     background-color: rgb(8, 88, 207);
     height: 600px;
     width: 89%;
-    border: solid 4px red;
+    /* border: solid 4px red; */
     margin-top: 25px;
     margin-left: 6%;
 }
@@ -91,16 +84,9 @@ main{
 }
 /* regole footer */
 
-footer::after{
-    content: "";
-    display: table;
-    clear: both;
-}
-
 footer{
     height: 60px;
     width: 80%;
-    border: solid 4px red;
     margin-left: 200px;
     background-color: blueviolet;
     margin-bottom: 30px;
