@@ -38,6 +38,7 @@ main{
     background-color: rgb(235, 203, 22);
     width: 100%;
     float: left;
+    margin-bottom: 40px;
 }
 
 
@@ -82,7 +83,6 @@ main{
     float: left;
     background-color: rgb(16, 169, 240);
 }
-/* regole footer */
 
 footer{
     height: 60px;
